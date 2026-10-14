@@ -12,7 +12,7 @@ Some set operations are given below:
 # Create a set of fruits
 fruits = {"apple", 'banana', "cherry", 'durian', "elephant apple"}
 
-# Display the contents onf the fruit set
+# Display the contents of the fruit set
 print(f"The contents of the 'fruits' set are:\n{fruits}")
 
 # Display the number of fruits in the set
