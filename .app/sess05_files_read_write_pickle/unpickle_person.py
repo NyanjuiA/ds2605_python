@@ -20,7 +20,7 @@ with open(file_path,'rb') as f:
 
 # Access and display the picked person's details/attributes
 if persons:
-   print("Details of the persons i the 'person.txt' file")
+   print("Details of the persons in the 'person.txt' file")
    print(f"-" * 60)
    for index, person in enumerate(persons, start=1):
       print(f"Person {index}. Name: {person.name}, Age: {person.age}, Gender: {person.gender}")
